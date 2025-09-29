@@ -21,48 +21,48 @@ GREEN = (0, 255, 0)
 
 # ========== Definice Symbolů ==========
 symbols = {
-    #"apple": pygame.image.load("assets/images/apple.png"),
-    "banana": pygame.image.load("assets/images/banana.png"),
-    "cherry": pygame.image.load("assets/images/cherry.png"),
-    "grape": pygame.image.load("assets/images/grape.png"),
-    "lemon": pygame.image.load("assets/images/lemon.png"),
-    "orange": pygame.image.load("assets/images/orange.png"),
-    "watermelon": pygame.image.load("assets/images/watermelon.png"),
-    "pear": pygame.image.load("assets/images/pear.png"),
-    "strawberry": pygame.image.load("assets/images/strawberry.png"),
-    "pomelo": pygame.image.load("assets/images/pomelo.png"),
-    "seven": pygame.image.load("assets/images/seven.png"),
-    "shiny_apple": pygame.image.load("assets/images/shiny_apple.png"),
-    "shiny_banana": pygame.image.load("assets/images/shiny_banana.png"),
-    "shiny_cherry": pygame.image.load("assets/images/shiny_cherry.png"),
-    "shiny_grape": pygame.image.load("assets/images/shiny_grape.png"),
-    "shiny_lemon": pygame.image.load("assets/images/shiny_lemon.png"),
-    "shiny_orange": pygame.image.load("assets/images/shiny_orange.png"),
-    "shiny_watermelon": pygame.image.load("assets/images/shiny_watermelon.png"),
-    "shiny_pear": pygame.image.load("assets/images/shiny_pear.png"),
-    "shiny_strawberry": pygame.image.load("assets/images/shiny_strawberry.png"),
-    "shiny_pomelo": pygame.image.load("assets/images/shiny_pomelo.png"),
-    "golden_seven": pygame.image.load("assets/images/golden_seven.png"),
-    "reroll": pygame.image.load("assets/images/reroll.png"),
-    "mirror": pygame.image.load("assets/images/mirror.png"),
-    "diamond": pygame.image.load("assets/images/diamond.png"),
-    "bomb": pygame.image.load("assets/images/bomb.png"),
-    "star": pygame.image.load("assets/images/star.png")
+    "apple": pygame.image.load("Automat/assets/images/apple.png"),
+    "banana": pygame.image.load("Automat/assets/images/banana.png"),
+    "cherry": pygame.image.load("Automat/assets/images/cherry.png"),
+    "grape": pygame.image.load("Automat/assets/images/grape.png"),
+    "lemon": pygame.image.load("Automat/assets/images/lemon.png"),
+    "orange": pygame.image.load("Automat/assets/images/orange.png"),
+    "watermelon": pygame.image.load("Automat/assets/images/watermelon.png"),
+    "pear": pygame.image.load("Automat/assets/images/pear.png"),
+    "strawberry": pygame.image.load("Automat/assets/images/strawberry.png"),
+    "pomelo": pygame.image.load("Automat/assets/images/pomelo.png"),
+    "seven": pygame.image.load("Automat/assets/images/seven.png"),
+    "shiny_apple": pygame.image.load("Automat/assets/images/shiny_apple.png"),
+    "shiny_banana": pygame.image.load("Automat/assets/images/shiny_banana.png"),
+    "shiny_cherry": pygame.image.load("Automat/assets/images/shiny_cherry.png"),
+    "shiny_grape": pygame.image.load("Automat/assets/images/shiny_grape.png"),
+    "shiny_lemon": pygame.image.load("Automat/assets/images/shiny_lemon.png"),
+    "shiny_orange": pygame.image.load("Automat/assets/images/shiny_orange.png"),
+    "shiny_watermelon": pygame.image.load("Automat/assets/images/shiny_watermelon.png"),
+    "shiny_pear": pygame.image.load("Automat/assets/images/shiny_pear.png"),
+    "shiny_strawberry": pygame.image.load("Automat/assets/images/shiny_strawberry.png"),
+    "shiny_pomelo": pygame.image.load("Automat/assets/images/shiny_pomelo.png"),
+    "golden_seven": pygame.image.load("Automat/assets/images/golden_seven.png"),
+    "reroll": pygame.image.load("Automat/assets/images/reroll.png"),
+    "mirror": pygame.image.load("Automat/assets/images/mirror.png"),
+    "diamond": pygame.image.load("Automat/assets/images/diamond.png"),
+    "bomb": pygame.image.load("Automat/assets/images/bomb.png"),
+    "star": pygame.image.load("Automat/assets/images/star.png")
 }
 
 # Nepatří mezi symboly
-chest_image = pygame.image.load("assets/images/chest.png").convert_alpha()
-chip_icon = pygame.image.load("assets/images/chip.png")
+chest_image = pygame.image.load("Automat/assets/images/chest.png").convert_alpha()
+chip_icon = pygame.image.load("Automat/assets/images/chip.png")
 chip_icon_small = pygame.transform.scale(chip_icon, (35, 35)) # Zmenšený chip icon
 
-mirror_img = pygame.image.load("assets/images/mirror.png").convert_alpha()
-diamond_img = pygame.image.load("assets/images/diamond.png").convert_alpha()
-golden_seven_img = pygame.image.load("assets/images/golden_seven.png").convert_alpha()
-chest_img = pygame.image.load("assets/images/chest.png").convert_alpha()
-reroll_img = pygame.image.load("assets/images/reroll.png").convert_alpha()
-bomb_img = pygame.image.load("assets/images/bomb.png").convert_alpha()
-star_img = pygame.image.load("assets/images/star.png").convert_alpha()
-shiny_orange_img = pygame.image.load("assets/images/shiny_orange.png").convert_alpha()
+mirror_img = pygame.image.load("Automat/assets/images/mirror.png").convert_alpha()
+diamond_img = pygame.image.load("Automat/assets/images/diamond.png").convert_alpha()
+golden_seven_img = pygame.image.load("Automat/assets/images/golden_seven.png").convert_alpha()
+chest_img = pygame.image.load("Automat/assets/images/chest.png").convert_alpha()
+reroll_img = pygame.image.load("Automat/assets/images/reroll.png").convert_alpha()
+bomb_img = pygame.image.load("Automat/assets/images/bomb.png").convert_alpha()
+star_img = pygame.image.load("Automat/assets/images/star.png").convert_alpha()
+shiny_orange_img = pygame.image.load("Automat/assets/images/shiny_orange.png").convert_alpha()
 
 # Zmenšení obrázků na rozumnou velikost (např. 64x64 px)
 mirror_img = pygame.transform.scale(mirror_img, (100, 100))
