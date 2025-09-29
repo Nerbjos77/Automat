@@ -21,7 +21,7 @@ GREEN = (0, 255, 0)
 
 # ========== Definice Symbolů ==========
 symbols = {
-    "apple": pygame.image.load("assets/images/apple.png"),
+    #"apple": pygame.image.load("assets/images/apple.png"),
     "banana": pygame.image.load("assets/images/banana.png"),
     "cherry": pygame.image.load("assets/images/cherry.png"),
     "grape": pygame.image.load("assets/images/grape.png"),
